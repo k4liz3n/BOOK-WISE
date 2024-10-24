@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes
 from telegram.ext import filters
 
-TOKEN = '6165461895:AAHwF42e6ADR8h5ojFd2gAz4rqVCgVgAPKA'
+TOKEN = 'TOKEN-TELEGRAM'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text('Hola! Envíame el título de un libro para obtener enlaces de compra y reseñas.')
